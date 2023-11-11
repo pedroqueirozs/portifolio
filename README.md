@@ -1,7 +1,7 @@
-<h1 align="center">Focus Timer 2.0 </h1>
+<h1 align="center">PORTIFÓLIO </h1>
 
 <p align="center">
-Portifolio desenvolvido afim de mostrar um pouco dos projetos que ja realizei e tambem praticar uma nova tecnologia, o Node JS.<br/>
+Portifolio desenvolvido afim de mostrar um pouco dos projetos que ja realizei e tambem começar em uma nova tecnologia, o Node JS.<br/>
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -16,7 +16,7 @@ Portifolio desenvolvido afim de mostrar um pouco dos projetos que ja realizei e 
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./assets/capa.png" width="100%">
+  <img alt="projeto DevLinks" src="assets/imgs/fundo.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -28,10 +28,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Git e Github
 - Figma
+- Express
+- Node JS
+- Framework locomotive scroll
 
 ## 💻 Projeto
 
-O projeto foi desenvolvido com o propósito de mostrar um poco do meu conhecimento e tambem treinar um pouco de Node Js. A parte mais interessante que trablahei nesse projeto foi a parte de criação das rotas. -[Visite o projeto online](https://pedroqueirozs.github.io/focusTimer/)
+O projeto foi desenvolvido com o propósito de mostrar um pouco do meu conhecimento e tambem treinar um pouco de Node Js. A parte mais interessante que trabalhei nesse projeto foi a parte de criação das rotas. -[Visite o projeto online](https://pedroqueirozs.github.io/focusTimer/)
 
 ## 🔖 Layout
 
