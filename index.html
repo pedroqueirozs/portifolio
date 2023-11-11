@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/locomotiveScrool.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+<title>Portifólio Pedro</title>
+</head>
+<body>
+  <header>
+    <div class="headerText">
+      <img src="/imgs/1.png" alt="Logo do Pedro">
+      <span>Pedro Queiroz</span>
+    </div>
+    <span class="ph ph-list"></span>
+  </header>
+
+  <div class="container"data-scroll-container> 
+
+    <section class="hero" id="hero"data-scroll-section>
+      <div class="heroContainer">
+        <i class="ph ph-arrow-fat-lines-down"></i>
+        <div class="heroContent">
+          <span>Olá eu sou o Pedro </span>
+          <p> Sigo superando obstaculos e <strong>desafios</strong> a cada dia através da <strong>programaçao</strong>,
+            desenvolvo ideias em busca de um <strong>futuro</strong> melhor.</p>
+          <strong>Evoluir é essencial!</strong>
+        </div>
+        <div class="buttons">
+          <a id="btn-contact" href="https://pedroqueirozs.github.io/linkBio/">Contato</a>
+          <a href="cv/Profile.pdf" download="curriculum"> DOWNLOAD CV<i class="ph ph-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects" data-scroll-section>
+      <h1>Ultimos Projetos</h1>
+
+      <div class="containerProject">
+        <div class="project">
+        <h2>Form de cadastro</h2>
+        <div class="tags">
+          <span>React</span>
+          <span>Java-Script</span>
+        </div>
+        <div class="project-container">
+          <img src="imgs/projectRegister.svg" alt="imagem de um formulario">
+        </div>
+        <div class="project-info">
+          <div>
+            <a target="_blank" href="https://github.com/pedroqueirozs/Form-validacao-envio-email">GitHub</a>
+            <span class="ph ph-github-logo"></span>
+          </div>
+          <div>
+            <a href="/registerHome">Mais</a>
+            <span class="ph ph-dots-three-circle"></span>
+          </div>
+      <div><a target="_blank" href="https://login-react-gold.vercel.app/">Visite Online</a></div>
+          
+        </div>
+      
+    </div>
+   
+    <div class="project" id="project">
+      <h2>App Habts</h2>
+      <div class="tags">
+        <span>Css</span>
+        <span>Java-Script</span>
+      </div>
+      <div class="project-container">
+        <img src="imgs/projectHabts.svg" alt="imagem do app habts">
+      </div>
+      <div class="project-info">
+        <div>
+          <a target="_blank" href="https://github.com/pedroqueirozs/habits">GitHub</a>
+          <span  class="ph ph-github-logo"></span>
+        </div>
+       
+        <div>
+          <a href="/habtsHome" onclick="route()">Mais</a>
+          <span class="ph ph-dots-three-circle"></span>
+        </div>
+        <div>  <a target="_blank" href="https://pedroqueirozs.github.io/habits/">Visite Online</a> </div>
+      </div>
+  </div>
+
+  <div class="project" id="project">
+    <h2>Focus Timer</h2>
+    <div class="tags">
+      <span>Figma</span>
+      <span>Css</span>
+      <span>Java-Script</span>
+    </div>
+    <div class="project-container">
+      <img src="imgs/projectTimer.svg" alt="imagem de um formulario">
+    </div>
+    <div class="project-info">
+      <div>
+        <a target="_blank" href="https://github.com/pedroqueirozs/focusTimer">GitHub</a>
+        <span class="ph ph-github-logo"></span>
+      </div>
+
+      <div>
+        <a href="/timerHome" onclick="route()">Mais</a>
+        <span class="ph ph-dots-three-circle"></span>
+      </div>
+    <div><a target="_blank" href="https://pedroqueirozs.github.io/focusTimer/">Visite Online</a></div>
+  </div>
+  </div>
+</section>
+
+  <section class="about" data-scroll-section>
+    <h1>Sobre mim</h1>
+    <p>Tenho 22 anos ingressei no mundo da programação no início de 2023, em agosto deste mesmo ano iniciei o curso de
+      Engenharia de Software onde me encantei pelo mundo da tecnologia. Desde entao busco novos desafios a cada dia,
+      afim de aprofundar o conhecimento e poder contribuir de forma positiva na sociedade.
+    </p>
+    <h2>Skills</h2>
+    <div class="logos">
+      <div class="logo"><img src="imgs/js.png" alt="logo javascript"></div>
+      <div class="logo"> <img src="imgs/CSS3_logo_and_wordmark.svg.png" alt="logo css"></div>
+      <div class="logo"> <img src="imgs/nodejs.svg" alt="logo nodejs"></div>
+      <div class="logo"><img src="imgs/React-icon.svg.png" alt=" logo React"></div>
+    </div>
+  </section>
+  <footer data-scroll-section>
+    <div class="footer">
+      <p>Algo a contribuir ? </p>
+      <form action="#">
+        <div class="input">
+          <label for="name">Nome</label>
+          <input placeholder="Digite o seu nome" type="text">
+        </div>
+        <div class="input">
+          <label for="email"> E-mail</label>
+          <input placeholder="Digite o seu email" type="email">
+        </div>
+        <div class="input">
+          <label for="mesage">Mensagem</label>
+          <textarea placeholder="Digite uma mensagem" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="button">
+          <button onclick="route()">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </footer>
+ </div>
+  <script src="/js/index.js" type="module"></script>
+  <script src="/js/locomotive.js"></script>
+</body>
+
+</html>
