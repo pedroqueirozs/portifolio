@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css"/>
   <link rel="stylesheet" href="/css/locomotiveScrool.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,19 +16,25 @@
 <body>
   <header>
     <div class="headerText">
-      <span>PQ</span>
+      <span>Portifólio</span>
     </div>
-    <span class="ph ph-list"></span>
+    <div class="icons">
+    <span>
+      <a target="_blank" href="https://api.whatsapp.com/send/?phone=5511973779229&text&type=phone_number&app_absent=0"><i class="ph ph-whatsapp-logo"></i></a> 
+      <a target="_blank" href="https://www.instagram.com/_pedro_queirozz_"> <i class="ph ph-instagram-logo"></i></a> 
+      <a target="_blank" href="https://github.com/pedroqueirozs"><i class="ph ph-github-logo"></i></a> 
+      <a href="https://www.linkedin.com/in/pedro-queiroz-99b614263/"> <i class="ph ph-linkedin-logo"></i></a> 
+    </span>
+  </div>
   </header>
-
   <div class="container"data-scroll-container> 
 
     <section class="hero" id="hero"data-scroll-section>
       <div class="heroContainer">
         <div class="heroContent">
           <div class="heroContentText">
-            <h1>Hello, welcome to my personal portfolio! I'm Pedro, passionate about Technology</h1>
-            <p>This space is where I share my journey, achievements and passions. Over the years, I have dedicated my time and energy to exploring and improving my programming skills.</p>
+            <h1>Olá,<br> Bem-vindo ao meu portfólio pessoal! Me chamo Pedro e sou um entusiasta da tecnologia.</h1>
+            <p>Este espaço que compartilho é destinado a documentar minha jornada pessoal, minhas conquistas e as paixões que impulsionam meu crescimento. Ao longo dos últimos anos, tenho direcionado minha atenção e energia para a exploração e o aprimoramento das minhas habilidades de programação, mergulhando em diversos projetos e desafios para expandir meu conhecimento e domínio nessa área fascinante.</p>
           </div>
 
           <div class="heroContentImg">
@@ -36,11 +42,9 @@
             <img src="imgs/imagemPedro.jpg" alt="">
           </div>
           </div>
-
-        
         </div>
         <div class="buttons">
-          <a id="btn-contact" href="https://pedroqueirozs.github.io/linkBio/" target="_blank">Contato</a>
+          <a id="btn-contact" href="https://pedroqueirozs.github.io/linkBio/" target="_blank">Contact</a>
           <a href="cv/Profile.pdf" download="curriculum"> DOWNLOAD CV</a>
         </div>  
       </div>
@@ -49,28 +53,26 @@
     <section class="projects" id="projects" data-scroll-section>
       <i class="ph ph-caret-double-down"></i>
 
-      <h1>Latest Projects</h1>
+      <h1>Ultimos Projetos</h1>
 
-      <div class="containerProject">
+    <div class="containerProject">
         <div class="project">
-        <h2>Form de cadastro</h2>
+        <h2>App de Delivery</h2>
         <div class="tags">
-          <span>React</span>
-          <span>Java-Script</span>
+          <span>React Native</span>
+          <span>Type Script</span>
         </div>
         <div class="project-container">
-          <img src="imgs/projectRegister.svg" alt="imagem de um formulario">
+          <img src="imgs/react-expert.svg" alt="imagem de um formulario">
         </div>
         <div class="project-info">
           <div>
-            <a target="_blank" href="https://github.com/pedroqueirozs/Form-validacao-envio-email">GitHub</a>
-            <span class="ph ph-github-logo"></span>
+            <a target="_blank" href="https://github.com/pedroqueirozs/nlw-expert-react-native">GitHub</a>
           </div>
           <div>
             <a href="/registerHome">Mais</a>
-            <span class="ph ph-dots-three-circle"></span>
           </div>
-      <div><a target="_blank" href="https://login-react-gold.vercel.app/">Visite Online</a></div>
+      <div><a target="_blank" href="##">Visite Online</a></div>
         </div>
     </div>
    
@@ -78,6 +80,7 @@
       <h2>App Habts</h2>
       <div class="tags">
         <span>Css</span>
+        <span>Html</span>
         <span>Java-Script</span>
       </div>
       <div class="project-container">
@@ -86,59 +89,78 @@
       <div class="project-info">
         <div>
           <a target="_blank" href="https://github.com/pedroqueirozs/habits">GitHub</a>
-          <span  class="ph ph-github-logo"></span>
         </div>
        
         <div>
           <a href="/habtsHome" onclick="route()">Mais</a>
-          <span class="ph ph-dots-three-circle"></span>
         </div>
         <div>  <a target="_blank" href="https://pedroqueirozs.github.io/habits/">Visite Online</a> </div>
       </div>
   </div>
 
   <div class="project" id="project">
-    <h2>Focus Timer</h2>
+    <h2>Git Favorites</h2>
     <div class="tags">
       <span>Figma</span>
       <span>Css</span>
       <span>Java-Script</span>
     </div>
     <div class="project-container">
-      <img src="imgs/projectTimer.svg" alt="imagem de um formulario">
+      <img src="imgs/git_favorites.svg" alt="imagem de um formulario">
     </div>
     <div class="project-info">
       <div>
-        <a target="_blank" href="https://github.com/pedroqueirozs/focusTimer">GitHub</a>
-        <span class="ph ph-github-logo"></span>
+        <a target="_blank" href="https://github.com/pedroqueirozs/githubfavorites">GitHub</a>
       </div>
 
       <div>
         <a href="/timerHome" onclick="route()">Mais</a>
-        <span class="ph ph-dots-three-circle"></span>
       </div>
     <div><a target="_blank" href="https://pedroqueirozs.github.io/focusTimer/">Visite Online</a></div>
   </div>
   </div>
-</section>
+</section> 
+
 
   <section class="about" data-scroll-section>
-    <h2>About</h2>
-    <p>I am 22 years old and entered the world of programming at the beginning of 2023. In August of this same year I started the Software Engineering course where I became enchanted by the world of technology. Since then, I seek new challenges every day, in order to deepen my knowledge and be able to contribute positively to society.
+    <div class="abautt">
+    <h2>Sobre</h2>
+    <p>Tenho 22 anos e entrei no mundo da programação no início de 2023. Em agosto deste mesmo ano iniciei o curso de Engenharia de Software onde me encantei pelo mundo da tecnologia. Desde então, busco todos os dias novos desafios, a fim de aprofundar meus conhecimentos e poder contribuir positivamente com a sociedade.
     </p>
-    <h2>Skills</h2>
-    <p>Below are some technologies that I work on and always seek to improve. Node Js is the technology that surprises me the most due to its great features.</p>
+
+    <div class="grid-container">
+      <div class="item item1">
+        <img src="/imgs/imagem1.svg" alt="Imagem 1">
+      </div>
+      <div class="item item2">
+        <img src="/imgs/imagem2.svg" alt="Imagem 2">
+      </div>
+     
+      <div class="item item4">
+        <img src="/imgs/imagem3.svg" alt="Imagem 4">
+      </div>
+    </div>
+    
+  </div>
+    <h2>Habilidades</h2>
+    <p>Abaixo estão algumas tecnologias com as quais trabalho e procuro sempre me aprimorar. JavaScript junto ao Node.js é a tecnologia que mais me surpreende pelas suas ótimas funcionalidades. Nos meus projetos, sempre uso JavaScript, pois foi a primeira linguagem de programação com a qual tive contato, mas também já trabalhei com Python, que também é uma tecnologia que surpreende bastante pela grande área de aplicação.</p>
     <div class="logos">
-      <div class="logo"><img src="imgs/js.png" alt="logo javascript"></div>
-      <div class="logo"> <img src="imgs/CSS3_logo_and_wordmark.svg.png" alt="logo css"></div>
-      <div class="logo"> <img src="imgs/nodejs.svg" alt="logo nodejs"></div>
-      <div class="logo"><img src="imgs/React-icon.svg.png" alt=" logo React"></div>
+      <div class="separetorLogos">
+        <div class="logo"> <img src="imgs/logonode.svg" alt="logo nodejs"></div>
+        <div class="logo"><img src="imgs/logo_react.svg" alt=" logo React"></div>
+        <div class="logo"><img src="imgs/logo_ts.svg" alt=" logo React"></div>
+    </div>
+    <div class="separetorLogos">
+      <div class="logo"> <img src="imgs/logojs.svg" alt="logo nodejs"></div>
+      <div class="logo"><img src="imgs/logopython.svg" alt=" logo React"></div>
+      <div class="logo"><img src="imgs/logohtml.svg" alt=" logo React"></div>
+    </div>
     </div>
   </section>
   <footer data-scroll-section>
     <div class="contentText">
-      <p>Contact Me </p>
-      <span>Something to contribute? If you liked the content, get in touch and follow me on social media.</span>
+      <p>Contato</p>
+      <span>Algo para contribuir? Se você gostou do conteúdo, entre em contato e me siga nas redes sociais.</span>
         </div>
         <div class="contentLogos">
          <a href="https://api.whatsapp.com/send/?phone=5511973779229&text&type=phone_number&app_absent=0"><i class="ph ph-whatsapp-logo"></i></a> 

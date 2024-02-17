@@ -18,5 +18,5 @@ server.get("/timerHome", (req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`Servidor rodando na porta${port}`);
 });
