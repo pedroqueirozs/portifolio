@@ -31,8 +31,7 @@ header {
   background-color: var(--color-header-cards);
   justify-content: space-between;
   align-items: center;
-  padding-right: 4rem;
-  padding-left: 4rem;
+  padding: 0rem 4rem 0rem 4rem;
   font-size: var(--font-size-h2);
   position: absolute;
   z-index: 2;
@@ -40,7 +39,6 @@ header {
   top: 0;
 }
 header .icons span {
-  margin-left: 3rem;
   gap: 2rem;
   display: flex;
   color: var(--color-h1);
@@ -48,6 +46,7 @@ header .icons span {
 header .icons span a {
   color: var(--color-h1);
   text-decoration: none;
+  cursor: pointer;
 }
 .container {
   display: flex;
@@ -128,6 +127,7 @@ header .icons span a {
 }
 .hero .buttons #btn-contact:hover {
   background-color: var(--color-header-cards);
+  cursor: pointer;
 }
 
 .projects {
@@ -194,15 +194,13 @@ section span {
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 3rem;
 }
 .about h2 {
   color: var(--color-h1);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
-.about p {
-  margin-bottom: 5rem;
-}
+
 .about .logos {
   display: flex;
   justify-content: center;
@@ -216,12 +214,12 @@ section span {
 }
 
 footer {
-  margin-top: 10rem;
+  margin-top: 20rem;
   text-align: center;
   border-top: 1px solid var(--color-text-a);
   color: var(--color-h1);
   padding: 2rem;
-  height: 10rem;
+  height: 15rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -230,12 +228,12 @@ footer {
 }
 footer i {
   font-size: var(--font-size-h1);
-  margin-left: 8rem;
   color: var(--color-h1);
 }
 footer .contentLogos {
   display: flex;
   justify-content: center;
+  gap: 3rem;
 }
 footer .contentLogos a {
   text-decoration: none;
@@ -296,6 +294,22 @@ section .projects {
   .heroContentText {
     width: 100%;
   }
+
+  .heroContentImgCircle {
+    width: 20rem;
+    height: 20rem;
+  }
+  .heroContentImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 160px;
+  }
+  .hero .buttons {
+    margin-top: 8rem;
+  }
+  footer {
+    height: 20rem;
+  }
 }
 @media (max-width: 500px) {
   .separetorLogos {
@@ -328,7 +342,7 @@ section .projects {
 
 .item1 {
   grid-column: span 2;
-  height: 50rem;
+  height: 40rem;
 }
 
 .item2 {
