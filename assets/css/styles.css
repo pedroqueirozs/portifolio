@@ -36,7 +36,8 @@ header {
   font-size: var(--font-size-h2);
   position: absolute;
   z-index: 2;
-  font-weight: bold;/
+  font-weight: bold;
+  top: 0;
 }
 header .icons span {
   margin-left: 3rem;
@@ -54,7 +55,7 @@ header .icons span a {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 8rem;
-  margin-top: 15rem;
+  margin-top: 10rem;
   z-index: 1;
 }
 
@@ -68,7 +69,6 @@ header .icons span a {
 .heroContentImg {
   width: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .heroContentImgCircle {
@@ -195,18 +195,17 @@ section span {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  
 }
 .about h2 {
   color: var(--color-h1);
   margin-bottom: 3rem;
 }
-.about p{
+.about p {
   margin-bottom: 5rem;
 }
 .about .logos {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 3rem;
   height: 100%;
   display: block;
@@ -222,7 +221,7 @@ footer {
   border-top: 1px solid var(--color-text-a);
   color: var(--color-h1);
   padding: 2rem;
-  height: 25rem;
+  height: 10rem;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -233,69 +232,117 @@ footer i {
   font-size: var(--font-size-h1);
   margin-left: 8rem;
   color: var(--color-h1);
+}
+footer .contentLogos {
+  display: flex;
+  justify-content: center;
+}
+footer .contentLogos a {
   text-decoration: none;
 }
+.containerProject {
+  display: flex;
+  justify-content: space-around;
+}
+section .projects {
+  gap: 5rem;
+}
+.projects .project {
+  max-width: 40rem;
+  height: 600px;
+}
+.project .project-container {
+  height: fit-content;
+  height: 45rem;
+  padding: 1rem;
+}
+.project-info {
+  display: flex;
+}
 
-@media (min-width: 800px) {
+@media (max-width: 1200px) {
   .containerProject {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
   }
-  .projects .project {
-    max-width: 40rem;
-    height: 600px;
+  .containerProject .project {
+    width: 100%;
   }
-  .project .project-container {
-    height: fit-content;
-    height: 45rem;
-    padding: 1rem;
+  .logos {
+    padding: 0;
+    max-height: fit-content;
   }
-  .project-info {
+  .separetorLogos {
     display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-height: fit-content;
   }
 }
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
+@media (max-width: 700px) {
+  .hero {
+    border: 1px solid var(--color-bg-btn);
+    display: block;
   }
-  
-  .item {
-    overflow: hidden;
+  .hero .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .item img {
+  .heroContentText {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
-  
-  .item1 {
-    grid-column: span 2;
-    height: 50rem;
+}
+@media (max-width: 500px) {
+  .separetorLogos {
+    max-height: 8rem;
   }
-  
-  .item2 {
-    grid-column: span 1;
-    height: 40rem;
+  .logos {
+    max-height: fit-content;
+  }
+  .contentLogos {
+    display: flex;
+    justify-content: center;
+  }
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
 
-  }
-  .item4 {
-    grid-column: span 1;
-    height: 40rem;
-  }
-  .separetorLogos{
+.item {
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item1 {
+  grid-column: span 2;
+  height: 50rem;
+}
+
+.item2 {
+  grid-column: span 1;
+  height: 40rem;
+}
+.item4 {
+  grid-column: span 1;
+  height: 40rem;
+}
+.separetorLogos {
   display: flex;
   gap: 5rem;
   align-items: center;
   justify-content: center;
   margin-bottom: 3rem;
 }
-  
-
-
-  
-
-
- 
